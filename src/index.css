@@ -1,13 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.outwiths-logo {
+  text-decoration: none;
+}
+
+.outwiths-logo span {
+  margin-left: 10px;
+  font-size: 25px;
+  align-items: center;
+  color: black;
+}
+
+.searchButton {
+  border: none;
+  background: transparent;
+}
+
+.profile-search {
+  background: transparent;
+  border: none;
+}
+
+.nav a {
+  color: rgb(181, 181, 195);
+}
+
+.nav a:hover {
+  color: rgb(201, 247, 245);
+}
+
+.group-button .btn-light {
+  color: #1bc5bd;
+  background-color: #c9f7f5;
+  border-color: transparent;
+}
+.group-button .btn-light:hover {
+  color: white;
+  background-color: #1bc5bd;
+  border-color: transparent;
+}
+
+.left-button .save {
+  color: white;
+  background-color: #1bc5bd;
+  border-color: transparent;
+}
+.left-button .save:hover {
+  color: #1bc5bd;
+  background-color: #c9f7f5;
+  border-color: transparent;
+}
+
+#inputGroupFile02 {
+  content: "test";
+  width: 350px;
+  height: 200px;
+  background: rgb(248, 249, 250);
 }
